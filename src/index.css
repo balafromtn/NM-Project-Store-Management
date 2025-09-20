@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+.card-shadow { box-shadow: 0 6px 18px rgba(16,24,40,0.06); }
+
+/* dark helpers */
+.dark .bg-white { background-color: #0b1220; }
