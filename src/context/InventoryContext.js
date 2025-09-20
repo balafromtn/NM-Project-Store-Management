@@ -6,8 +6,8 @@ import { uid } from '../utils';
 const InventoryContext = createContext();
 
 const initialProducts = [
-  { id: uid(), name: 'Laptop', image: 'https://picsum.photos/seed/chair/400/300', price: 1200, stock: 8, initialStock: 12, tags: ['accesories','electorics'] },
-  { id: uid(), name: 'Smart Phone', image: 'https://picsum.photos/seed/table/400/300', price: 4200, stock: 2, initialStock: 6, tags: ['accesories','electorics'] },
+  { id: uid(), name: 'Laptop', image: 'https://cdn.thewirecutter.com/wp-content/media/2024/11/cheapgaminglaptops-2048px-7981.jpg', price: 120000, stock: 8, initialStock: 12, tags: ['accesories','electorics'] },
+  { id: uid(), name: 'Smart Phone', image: 'https://pisces.bbystatic.com/image2/BestBuy_US/dam/REF-REF-2658350-bento-apple-sv_DER-4df4ae4c-6322-42ae-ab25-11f1e3ef81ff.jpg?format=webp;maxWidth=1400;maxHeight=996', price: 4200, stock: 2, initialStock: 6, tags: ['accesories','electorics'] },
 ];
 
 export function InventoryProvider({children}){
